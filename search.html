@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Meal For Your Ingredients</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="normalize.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="Utility .css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <nav class="navbar-search">
+        <div class="container flex">
+            <!-- ///////////////HEADING////////////// -->
+            <img src="ICON2.png" class="icon">
+            <a href="index.html" class="site-brand">
+                <span>MOM'S</span>RECIPE
+            </a>
+            <!-- /////////HEADING NAVBAR////////////// -->
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="search.html" class="nav-link">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="flex-search">
+        <div class="container">
+            <div class="header-title">
+                <h1>Find Your Go To Meal!!</h1>
+                <h1>Go Ahead and Search Your Favorite Ingredients...</h1>
+            </div>
+        </div>
+    </header>
+    <div class="container-item">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Find Meals For Your Ingredients</h2>
+                <blockquote>Real food doesn't have ingredients, real food is ingredients.<br>
+                    <cite>- Jamie Oliver</cite>
+                </blockquote>
+
+                <div class="meal-search-box">
+                    <input type="text" class="search-control" placeholder="Enter an ingredient" id="search-input">
+                    <button type="submit" class="search-bttn bttn" id="search-bttn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="meal-result">
+                <h2 class="title">Your Search Results:</h2>
+                <div id="meal">
+                    <!-- meal item -->
+                    <!-- <div class="meal-item">
+                        <div class="meal-img">
+                            <img src="food.jpg" alt="food">
+                        </div>
+                        <div class="meal-name">
+                            <h3>Potato Chips</h3>
+                            <a href="#" class="recipe-btn">Get Recipe</a>
+                        </div>
+                    </div> -->
+                    <!-- end of meal item -->
+                </div>
+            </div>
+
+
+            <div class="meal-details">
+                <!-- recipe close btn -->
+                <button type="button" class="bttn recipe-close-bttn" id="recipe-close-bttn">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <!-- meal content -->
+                <div class="meal-details-content">
+                    <!-- <h2 class = "recipe-title">Meals Name Here</h2>
+          <p class = "recipe-category">Category Name</p>
+          <div class = "recipe-instruct">
+            <h3>Instructions:</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+          </div>
+          <div class = "recipe-meal-img">
+            <img src = "food.jpg" alt = "">
+          </div>
+          <div class = "recipe-link">
+            <a href = "#" target = "_blank">Watch Video</a>
+          </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    <span>MOM'S</span> RECIPE
+                </a>
+                <p class="text1">Moms Recipe is a brand known for its range of traditional recipes. They offer a
+                    variety
+                    of recipes that capture the authentic flavors of
+                    cuisine, often using traditional recipes passed down through generations. The brand is
+                    popular for its quality ingredients and the nostalgic, homemade taste it brings to its offerings.
+                </p>
+            </div>
+
+            <div class="footer-item">
+                <div class="links">
+                    <h2>Follow us on: </h2>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://facebook.com">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vidhigupta__112">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/VarunThapar15">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://pinterest.com">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <div class="popular">
+                    <h2>Contact Us:</h2>
+                    <ul>
+                        <li>Email:something@gmail.com</li>
+                        <li>Phone No: 9*********50</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

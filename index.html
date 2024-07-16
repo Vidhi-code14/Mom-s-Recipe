@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mom's Recipe
+    </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="fonts.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="normalize.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="Utility .css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav class="navbar">
+        <div class="container flex">
+            <!-- ///////////////HEADING////////////// -->
+            <img src="ICON2.png" class="icon">
+            <a href="index.html" class="site-brand">
+                <span>MOM'S</span>RECIPE
+            </a>
+            <!-- /////////HEADING NAVBAR////////////// -->
+            <button type="button" id="navbar-show-btn" class="flex">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="navbar-collapse">
+                <button type="button" id="navbar-close-btn" class="flex">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="search.html" class="nav-link">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar  -->
+
+    <!-- header -->
+    <header class="flex">
+        <div class="container">
+            <div class="header-title">
+
+                <h1>Welcome to <span>MOM'S</span>RECIPE</h1>
+                <p>Discover the warmth and love of home-cooked meals right here. At MOM'S RECIPE, we bring you a
+                    collection of the most cherished recipes passed down through generations. Whether you're looking
+                    to
+                    recreate your favorite childhood dish or explore new culinary delights, we have something for
+                    everyone.</p>
+                <p class="quote">"BRINGING THE COMFORT OF MOM'S COOKING TO YOUR TABLE"</p>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- featured section -->
+    <section id="featured" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">Know about Some Dishes before you dig deep into them</span>
+                <h2 class="lg-title">Featured Dishes</h2>
+            </div>
+
+            <div class="featured-row">
+                <div class="featured-item my-2 shadow">
+                    <img src="Canadian Butter Tarts.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Canadian Butter Tarts
+                        </span>
+                        <div>
+                            <p class="text">Canadian Butter Tarts are a beloved traditional dessert that hails from
+                                Canada. These tarts feature a flaky, buttery pastry shell filled with a sweet, gooey
+                                mixture of butter, sugar, and eggs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="choclate avacado mouse.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Chocolate Avocado Mousse
+                        </span>
+                        <div>
+                            <p class="text">Chocolate Avocado Mousse is a delicious and healthy dessert that combines
+                                the rich creaminess of ripe avocados with the deep, indulgent flavor of dark chocolate.
+                                This mousse is incredibly smooth and velvety, offering a guilt-free alternative.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="Egg Drop Soup.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Egg Drop Soup
+                        </span>
+                        <div>
+                            <p class="text">Egg Drop Soup, also known as Egg Flower Soup, is a simple and comforting
+                                Chinese soup that features beaten eggs gently poured into hot broth, creating delicate,
+                                wispy strands. The broth is typically flavored with chicken or vegetable stock.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="Koshari.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Koshari
+                        </span>
+                        <div>
+                            <p class="text">Koshari is a popular Egyptian dish known for its hearty and satisfying
+                                combination of ingredients. It typically consists of layers of rice, lentils, and pasta,
+                                topped with a flavorful tomato sauce and crispy fried onions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="Lancashire.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Lancashire hotpot
+                        </span>
+                        <div>
+                            <p class="text">Lancashire Hotpot is a traditional English dish originating from the county
+                                of Lancashire. It is a hearty and comforting casserole-style dish consisting of layers
+                                of lamb or beef, onions, and potatoes, cooked slowly to tender perfection. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="featured-item my-2 shadow">
+                    <img src="Poutine.jpg" alt="featured place">
+                    <div class="featured-item-content">
+                        <span>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Poutine
+                        </span>
+                        <div>
+                            <p class="text">Poutine is a beloved Canadian dish that originated in the province of
+                                Quebec. It consists of crispy French fries topped with fresh cheese curds and smothered
+                                in hot gravy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of featured section -->
+
+    <!-- services section -->
+    <section id="services" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">know about services that we offer</span>
+                <h2 class="lg-title">Our services</h2>
+            </div>
+
+            <div class="services-row">
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-cheese"></i>
+                    </span>
+                    <h3>Some Delicious Recipes</h3>
+                    <p class="text">Mom'sRecipe provides you with some delecious recipes which will elevate your taste
+                        buds. Enjoy the flavours and the spiciness provided by the recipes provided by us. You will like
+                        the Taste
+                        as well as the healthiness of the recipes.
+                    </p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-pepper-hot"></i>
+                    </span>
+                    <h3>Taste Just Like Your Mom's Hand</h3>
+                    <p class="text">It will help you</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+
+                <div class="services-item">
+                    <span class="services-icon">
+                        <i class="fas fa-pizza-slice"></i>
+                    </span>
+                    <h3>Pure And Authentic</h3>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem quo, totam repellat
+                        velit, dignissimos sequi error a minima architecto fugit nisi dolorum repellendus?</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- testimonials section -->
+    <section id="testimonials" class="py-4">
+        <div class="container">
+            <div class="title-wrap">
+                <span class="sm-title">what our users say about us</span>
+                <h2 class="lg-title">reviews</h2>
+            </div>
+
+            <div class="test-row">
+                <div class="test-item">
+                    <p class="text">As a long-time lover of Apam Balik, I recently had the pleasure of trying Apam Balik
+                        recipe
+                        from this site,
+                        and I am impressed how close it was to my liking. It reminded me of my home and my mom ,LOVE YOU
+                        MOM💖</p>
+                    <div class="test-item-info">
+                        <img src="review image1.jpg" alt="testimonial">
+                        <div>
+                            <h3>Lim Sueng</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">Battenberg Cake is more than just a dish; it’s an experience that I love living from
+                        my childhood. I
+                        recently had the pleasure of trying this recipe from this site , and it left a
+                        lasting
+                        impression on my taste-buds and I am surprised how close it was to my mother's recipe😍.
+                    </p>
+                    <div class="test-item-info">
+                        <img src="review image2.jpg" alt="testimonial">
+                        <div>
+                            <h3>Shaun Murphy</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-item">
+                    <p class="text">I recently had the pleasure of indulging in a plate of Shahi Paneer, and I must say,
+                        it was an absolutely delightful experience. As someone who enjoys Paneer and spiciness , this
+                        dish recipe exceeded all my expectations💯.</p>
+                    <div class="test-item-info">
+                        <img src="review image3.jpg" alt="testimonial">
+                        <div>
+                            <h3>Aryamann Kapoor</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of testimonials section -->
+
+    <!-- video section -->
+    <section id="video">
+        <div class="video-wrapper flex">
+            <video loop>
+                <source src="videoplayback.mp4" type="video/mp4">
+            </video>
+            <button type="button" id="play-btn">
+                <i class="fas fa-play"></i>
+            </button>
+        </div>
+    </section>
+    <!-- end of video section -->
+
+    <!-- footer -->
+    <footer class="py-4">
+        <div class="container footer-row">
+            <div class="footer-item">
+                <a href="index.html" class="site-brand">
+                    <span>MOM'S</span> RECIPE
+                </a>
+                <p class="text1">Moms Recipe is a brand known for its range of traditional recipes. They offer a
+                    variety
+                    of recipes that capture the authentic flavors of
+                    cuisine, often using traditional recipes passed down through generations. The brand is
+                    popular for its quality ingredients and the nostalgic, homemade taste it brings to its offerings.
+                </p>
+            </div>
+
+            <div class="footer-item">
+                <div class="links">
+                    <h2>Follow us on: </h2>
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://facebook.com">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/vidhigupta__112">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/VarunThapar15">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://pinterest.com">
+                                <i class="fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <div class="popular">
+                    <h2>Contact Us:</h2>
+                    <ul>
+                        <li>Email:something@gmail.com</li>
+                        <li>Phone No: 9*********50</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- js -->
+    <script src="script.js"></script>
+    <script>
+        // play/pause video
+        let video = document.querySelector('.video-wrapper video');
+        document.getElementById('play-btn').addEventListener('click', () => {
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        });
+    </script>
+</body>
+
+</html>
